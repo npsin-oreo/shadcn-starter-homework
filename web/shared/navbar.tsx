@@ -3,10 +3,9 @@ import Link from "next/link"
 const imgLogo = "https://www.figma.com/api/mcp/asset/485c135c-0877-47e5-b7ec-e4b75c7db671"
 
 const navLinks = [
-  { label: "เกี่ยวกับ",    href: "/about" },
-  { label: "แพทย์",       href: "/doctors" },
-  { label: "โปรโมชัน",    href: "/promotions" },
-  { label: "แผนที่คลินิก", href: "/map" },
+  { label: "เกี่ยวกับ", href: "/about" },
+  { label: "แพทย์",    href: "/doctors" },
+  { label: "บริการ",   href: "/promotions" },
 ] as const
 
 type NavHref = (typeof navLinks)[number]["href"]
