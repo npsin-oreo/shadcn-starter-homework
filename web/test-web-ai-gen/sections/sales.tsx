@@ -1,4 +1,4 @@
-const clinicPhoto = "https://www.figma.com/api/mcp/asset/0e20d790-822d-489d-b192-c8f2c9ef6ee6"
+const clinicPhoto = "https://www.figma.com/api/mcp/asset/34bcb961-faf8-419b-9169-e79eecec306c"
 
 const features = [
   {
@@ -26,7 +26,7 @@ const features = [
 
 export function Sales() {
   return (
-    <section className="bg-primary flex gap-12 items-center overflow-hidden px-32 py-32 shrink-0 w-full">
+    <section className="bg-blue-600 flex gap-12 items-center overflow-hidden px-32 py-32 shrink-0 w-full">
       {/* Clinic photo */}
       <div className="aspect-[160/90] flex-1 min-w-0 overflow-hidden relative">
         <img

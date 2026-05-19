@@ -1,15 +1,15 @@
 import { ArrowUpRight } from "lucide-react"
 
-const imgImage29 = "https://www.figma.com/api/mcp/asset/7f7ef03d-ec1d-488c-a3ed-a6affbb22505"
-const imgImage30 = "https://www.figma.com/api/mcp/asset/a8830383-934e-4e7a-86b6-af8a50a6042b"
-const imgImage31 = "https://www.figma.com/api/mcp/asset/7888a8ec-9b81-4d79-8969-6d601cba8caa"
-const imgImage32 = "https://www.figma.com/api/mcp/asset/7de205af-63c5-4dbc-892e-8ef0fc954ef7"
+const imgArticleImage  = "https://www.figma.com/api/mcp/asset/14c51880-20f6-4552-9b00-5961c5eea2f4"
+const imgArticleImage1 = "https://www.figma.com/api/mcp/asset/1f679f01-4364-4495-8cc0-89c8dbdc34c2"
+const imgArticleImage2 = "https://www.figma.com/api/mcp/asset/22c56736-5296-4e3d-9572-cdb953244d43"
+const imgArticleImage3 = "https://www.figma.com/api/mcp/asset/0ea6ac97-0885-462d-8590-f1e0ff25a574"
 
 const articles = [
-  { image: imgImage29, title: "5 หลักการกินเพื่อสุขภาพ ที่ดี ในชีวิตประจำวัน", date: "9 มี.ค. 2569", badge: "เวชศาตร์ทั่วไป" },
-  { image: imgImage30, title: "รู้ทันความดันโลหิตสูง ภัยเงียบที่ป้องกันได้",         date: "9 มี.ค. 2569", badge: "เวชศาตร์ทั่วไป" },
-  { image: imgImage31, title: "ทำไมต้องฉีดวัคซีนทุกปี ?",                              date: "9 มี.ค. 2569", badge: "เวชศาตร์ทั่วไป" },
-  { image: imgImage32, title: "ดูแลผู้ป่วยเบาหวานที่บ้าน อย่างไร ให้ปลอดภัย",       date: "9 มี.ค. 2569", badge: "เวชศาตร์ทั่วไป" },
+  { image: imgArticleImage,  title: "5 หลักการกินเพื่อสุขภาพ ที่ดี ในชีวิตประจำวัน", date: "9 มี.ค. 2569", badge: "เวชศาตร์ทั่วไป" },
+  { image: imgArticleImage1, title: "รู้ทันความดันโลหิตสูง ภัยเงียบที่ป้องกันได้",         date: "9 มี.ค. 2569", badge: "เวชศาตร์ทั่วไป" },
+  { image: imgArticleImage2, title: "ทำไมต้องฉีดวัคซีนทุกปี ?",                              date: "9 มี.ค. 2569", badge: "เวชศาตร์ทั่วไป" },
+  { image: imgArticleImage3, title: "ดูแลผู้ป่วยเบาหวานที่บ้าน อย่างไร ให้ปลอดภัย",       date: "9 มี.ค. 2569", badge: "เวชศาตร์ทั่วไป" },
 ]
 
 function ArticleCard({ image, title, date, badge }: (typeof articles)[number]) {
@@ -30,8 +30,8 @@ function ArticleCard({ image, title, date, badge }: (typeof articles)[number]) {
           <p className="font-normal leading-5 overflow-hidden text-muted-foreground text-sm text-ellipsis tracking-normal whitespace-nowrap">
             {date}
           </p>
-          <span className="bg-secondary flex h-[22px] items-center justify-center px-2.5 rounded-lg shrink-0">
-            <span className="font-medium leading-4 text-secondary-foreground text-xs tracking-normal whitespace-nowrap">
+          <span className="bg-orange-100 flex h-[22px] items-center justify-center px-2.5 rounded-lg shrink-0">
+            <span className="font-medium leading-4 text-orange-600 text-xs tracking-normal whitespace-nowrap">
               {badge}
             </span>
           </span>

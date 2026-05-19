@@ -30,7 +30,7 @@ const services = [
 function ServiceCard({ title, desc }: { title: string; desc: string }) {
   return (
     <div className="bg-card border border-border flex flex-1 flex-col gap-2 items-end min-w-0 px-4 py-4 rounded-2xl">
-      <p className="font-semibold leading-8 min-w-full text-card-foreground text-2xl tracking-normal w-min">
+      <p className="font-semibold leading-8 min-w-full text-orange-500 text-2xl tracking-normal w-min">
         {title}
       </p>
       <p className="font-normal leading-6 min-w-full overflow-hidden text-base text-muted-foreground text-ellipsis tracking-normal w-min whitespace-pre-wrap">
@@ -46,7 +46,7 @@ function ServiceCard({ title, desc }: { title: string; desc: string }) {
 export function Services() {
   const [row1, row2] = [services.slice(0, 3), services.slice(3)]
   return (
-    <section className="bg-background flex flex-col gap-12 items-center justify-center overflow-hidden px-32 py-32 shrink-0 w-full">
+    <section className="bg-muted flex flex-col gap-12 items-center justify-center overflow-hidden px-32 py-32 shrink-0 w-full">
       <div className="flex flex-col gap-2 items-center text-foreground tracking-normal whitespace-nowrap">
         <p className="font-semibold leading-10 text-4xl">ครบทุกบริการสุขภาพ</p>
         <p className="font-normal leading-8 text-2xl">

@@ -1,5 +1,7 @@
 import { CalendarDays } from "lucide-react"
 
+const imgLogo2 = "https://www.figma.com/api/mcp/asset/3f988329-885d-42f0-892e-5dd5bdb4b703"
+
 const serviceLinks = {
   col1: ["รักษาโรคทั่วไป", "รักษาโรคเรื้อรัง", "หัตถการ"],
   col2: ["วัคซีน", "ตรวจสุขภาพ", "ใบรับรองแพทย์"],
@@ -12,16 +14,22 @@ const aboutLinks = {
 
 export function Footer() {
   return (
-    <footer className="bg-primary flex flex-col gap-12 items-start overflow-hidden px-32 py-16 shrink-0 w-full">
+    <footer className="bg-blue-900 flex flex-col gap-12 items-start overflow-hidden px-32 py-16 shrink-0 w-full">
       <div className="flex gap-12 items-start w-full">
         {/* Brand */}
-        <div className="flex-1 min-w-0">
-          <p className="font-semibold leading-10 mb-0 text-4xl text-primary-foreground tracking-normal">ใกล้หมอ</p>
-          <p className="font-semibold leading-10 text-4xl text-primary-foreground tracking-normal">คลินิกเวชกรรม</p>
+        <div className="flex flex-1 flex-col gap-2 items-start min-w-0">
+          <div className="h-12 overflow-hidden relative shrink-0 w-[162px]">
+            <img alt="ใกล้หมอ คลินิก" className="absolute block inset-0 max-w-none size-full" src={imgLogo2} />
+          </div>
+          <div className="flex items-center justify-center px-2 w-full">
+            <p className="flex-1 font-semibold leading-7 min-w-0 text-white text-xl tracking-normal">
+              คลินิกเวชกรรม
+            </p>
+          </div>
         </div>
 
         {/* Links */}
-        <div className="flex gap-6 items-center text-primary-foreground tracking-normal shrink-0">
+        <div className="flex gap-6 items-center text-white tracking-normal shrink-0">
           {/* Services */}
           <div className="flex flex-col gap-2 items-start">
             <p className="font-semibold leading-7 text-lg">บริการ</p>
@@ -58,7 +66,7 @@ export function Footer() {
         </button>
       </div>
 
-      <p className="font-normal leading-5 overflow-hidden text-ellipsis text-muted-foreground text-sm tracking-normal whitespace-nowrap">
+      <p className="font-normal leading-5 overflow-hidden text-ellipsis text-muted text-sm tracking-normal whitespace-nowrap">
         © 2026 ใกล้หมอคลีนิก. All rights reserved.
       </p>
     </footer>

@@ -1,8 +1,8 @@
 import { ArrowUpRight } from "lucide-react"
 
-const imgRectangle  = "https://www.figma.com/api/mcp/asset/457f0378-29e3-423c-afd7-43f9c8376c4e"
-const imgRectangle1 = "https://www.figma.com/api/mcp/asset/75a2123d-c7c8-4b31-8bdf-bb65a71b72fe"
-const imgRectangle2 = "https://www.figma.com/api/mcp/asset/e8cc1d2d-7449-4376-8931-a8f2a1ff4fe5"
+const imgRectangle  = "https://www.figma.com/api/mcp/asset/519372da-dfc4-495c-92f2-7ad8755f5f4a"
+const imgRectangle1 = "https://www.figma.com/api/mcp/asset/8b531de2-00c1-4d3e-8327-ad1131325f9d"
+const imgRectangle2 = "https://www.figma.com/api/mcp/asset/bf8e704d-c4f3-4e7a-8a28-1d4b8b51119c"
 
 const doctors = [
   {
@@ -56,8 +56,8 @@ function DoctorCard({
       </div>
       <div className="flex gap-1 items-start">
         {badges.map((badge) => (
-          <span key={badge} className="bg-secondary flex h-[22px] items-center justify-center px-2.5 rounded-lg shrink-0">
-            <span className="font-medium leading-4 text-secondary-foreground text-xs tracking-normal whitespace-nowrap">
+          <span key={badge} className="bg-orange-100 flex h-[22px] items-center justify-center px-2.5 rounded-lg shrink-0">
+            <span className="font-medium leading-4 text-orange-600 text-xs tracking-normal whitespace-nowrap">
               {badge}
             </span>
           </span>

@@ -28,12 +28,12 @@ shadcn-figma-starter-batch2/
 │   ├── layout.tsx                # Root layout (<html>/<body>, import globals.css)
 │   ├── page.tsx                  # หน้าแรก "/" (placeholder ของ starter)
 │   ├── globals.css               # ⭐ Design tokens ทั้งหมด (แก้สี/ธีมที่นี่เท่านั้น)
-│   └── momento/
-│       └── page.tsx              # Route "/momento" — บางๆ แค่ render <MomentoPage/>
+│   └── mono/
+│       └── page.tsx              # Route "/mono" — บางๆ แค่ render <MomentoPage/>
 │
 ├── web/                          # ⭐ โค้ด implementation หน้าเว็บ (แยกจาก app/)
-│   └── momento/
-│       ├── momento-page.tsx      # ประกอบทุก section เข้าด้วยกัน (หน้าเต็ม)
+│   └── mono/
+│       ├── mono-page.tsx      # ประกอบทุก section เข้าด้วยกัน (หน้าเต็ม)
 │       ├── components/
 │       │   └── container.tsx     # ตัวครอบความกว้าง/เกตเตอร์ ใช้ซ้ำทุก section
 │       └── sections/             # 1 ไฟล์ = 1 ส่วนของหน้า (เรียงบนลงล่าง)
