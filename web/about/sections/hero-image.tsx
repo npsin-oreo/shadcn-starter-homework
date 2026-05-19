@@ -2,10 +2,10 @@ const imgRectangle = "https://www.figma.com/api/mcp/asset/980a7334-2d50-4541-b16
 
 export function HeroImage() {
   return (
-    <div className="relative shrink-0 w-full overflow-hidden" style={{ height: "810px" }}>
+    <div className="h-[810px] w-full overflow-hidden relative shrink-0">
       <img
         alt="ใกล้หมอ คลินิก — doctor consultation"
-        className="absolute inset-0 max-w-none object-cover pointer-events-none size-full"
+        className="w-full h-full object-cover block"
         src={imgRectangle}
       />
     </div>
