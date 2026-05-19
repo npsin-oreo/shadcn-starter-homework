@@ -1,9 +1,9 @@
 import { ArrowUpRight } from "lucide-react"
 
-const imgArticleImage  = "https://www.figma.com/api/mcp/asset/14c51880-20f6-4552-9b00-5961c5eea2f4"
-const imgArticleImage1 = "https://www.figma.com/api/mcp/asset/1f679f01-4364-4495-8cc0-89c8dbdc34c2"
-const imgArticleImage2 = "https://www.figma.com/api/mcp/asset/22c56736-5296-4e3d-9572-cdb953244d43"
-const imgArticleImage3 = "https://www.figma.com/api/mcp/asset/0ea6ac97-0885-462d-8590-f1e0ff25a574"
+const imgArticleImage  = "https://www.figma.com/api/mcp/asset/cc669333-dee1-481e-9389-1646290808b2"
+const imgArticleImage1 = "https://www.figma.com/api/mcp/asset/49d43e96-dd8f-4b63-aaee-06ea7d2671f1"
+const imgArticleImage2 = "https://www.figma.com/api/mcp/asset/1d04220f-e3cc-41b3-a5d3-0cf460fde7c8"
+const imgArticleImage3 = "https://www.figma.com/api/mcp/asset/5edc2c72-e620-448d-bad3-35b5ebcc3304"
 
 const articles = [
   { image: imgArticleImage,  title: "5 หลักการกินเพื่อสุขภาพ ที่ดี ในชีวิตประจำวัน", date: "9 มี.ค. 2569", badge: "เวชศาตร์ทั่วไป" },

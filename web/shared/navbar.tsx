@@ -1,6 +1,6 @@
 import Link from "next/link"
 
-const imgLogo = "https://www.figma.com/api/mcp/asset/485c135c-0877-47e5-b7ec-e4b75c7db671"
+const imgLogo = "https://www.figma.com/api/mcp/asset/1da08f4e-77d6-41a6-9d1b-2661210d0ced"
 
 const navLinks = [
   { label: "เกี่ยวกับ", href: "/about" },

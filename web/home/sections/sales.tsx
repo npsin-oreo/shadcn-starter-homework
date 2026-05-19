@@ -1,4 +1,4 @@
-const clinicPhoto = "https://www.figma.com/api/mcp/asset/34bcb961-faf8-419b-9169-e79eecec306c"
+const clinicPhoto = "https://www.figma.com/api/mcp/asset/b54f01ba-9b04-4352-8edf-dc22e7291603"
 
 const features = [
   {

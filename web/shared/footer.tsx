@@ -1,6 +1,6 @@
 import { CalendarDays } from "lucide-react"
 
-const imgLogo2 = "https://www.figma.com/api/mcp/asset/3f988329-885d-42f0-892e-5dd5bdb4b703"
+const imgLogo2 = "https://www.figma.com/api/mcp/asset/e424975e-4c07-48e8-955f-0a55cd584c33"
 
 const serviceLinks = {
   col1: ["รักษาโรคทั่วไป", "รักษาโรคเรื้อรัง", "หัตถการ"],

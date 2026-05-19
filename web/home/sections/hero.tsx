@@ -1,5 +1,5 @@
-const imgLogo1 = "https://www.figma.com/api/mcp/asset/4a28646c-3005-49dd-958f-6e270f8e2be3"
-const imgArtworkContainer = "https://www.figma.com/api/mcp/asset/05558ac3-e8f3-43ac-a248-0af8a9f35dea"
+const imgLogo1 = "https://www.figma.com/api/mcp/asset/9484e844-6560-4e9b-bb70-29bf16c8660f"
+const imgArtworkContainer = "https://www.figma.com/api/mcp/asset/8b591ba9-f4b2-4942-ae91-888dab443142"
 
 export function Hero() {
   return (

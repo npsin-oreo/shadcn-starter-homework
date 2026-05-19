@@ -1,8 +1,8 @@
 import { ArrowUpRight } from "lucide-react"
 
-const imgRectangle  = "https://www.figma.com/api/mcp/asset/519372da-dfc4-495c-92f2-7ad8755f5f4a"
-const imgRectangle1 = "https://www.figma.com/api/mcp/asset/8b531de2-00c1-4d3e-8327-ad1131325f9d"
-const imgRectangle2 = "https://www.figma.com/api/mcp/asset/bf8e704d-c4f3-4e7a-8a28-1d4b8b51119c"
+const imgRectangle  = "https://www.figma.com/api/mcp/asset/f0be447f-442a-42bf-9b2f-2f758fcfe043"
+const imgRectangle1 = "https://www.figma.com/api/mcp/asset/cd2cbef3-4f04-4915-935c-37b1026a657b"
+const imgRectangle2 = "https://www.figma.com/api/mcp/asset/eef7ec45-0c2b-4d3c-978f-2180d143f9e9"
 
 const doctors = [
   {
