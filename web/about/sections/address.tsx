@@ -1,8 +1,8 @@
 import { Phone, MapPin, Globe } from "lucide-react"
 
-const imgGroup  = "https://www.figma.com/api/mcp/asset/04a5bf43-a4ef-4ec9-a628-f7cc40beb2ac"
-const imgGroup1 = "https://www.figma.com/api/mcp/asset/901734a5-08ca-4b97-b857-bd490ae8fa27"
-const imgMap    = "https://www.figma.com/api/mcp/asset/d9f772fe-2f91-4b8e-a179-c0c3573394be"
+const imgGroup  = "https://www.figma.com/api/mcp/asset/055b40b6-d86b-4766-b1d1-a22f5630daf9"
+const imgGroup1 = "https://www.figma.com/api/mcp/asset/244bdb1c-d136-4f10-9536-f6ac07eb3f96"
+const imgMap    = "https://www.figma.com/api/mcp/asset/8ad4ad3f-ef7c-4dec-95f0-d9de7385aef9"
 
 function IconBubble({ children }: { children: React.ReactNode }) {
   return (
@@ -50,8 +50,8 @@ export function Address() {
           </div>
         </div>
 
-        {/* Decorative illustration — absolute bottom-right */}
-        <div className="absolute bottom-0 right-8 flex items-end overflow-hidden h-[358px] pointer-events-none">
+        {/* Decorative illustration — starts above card, shows doctors from head down */}
+        <div className="absolute flex h-[358px] items-start overflow-hidden pt-[11.5px] right-8 top-[-55px] pointer-events-none">
           <div className="relative h-[715px] w-[223px] shrink-0 mr-[-44px]">
             <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup} />
           </div>
@@ -65,7 +65,7 @@ export function Address() {
       <div className="aspect-[1062/453] relative rounded-2xl shrink-0 w-full overflow-hidden">
         <img
           alt="แผนที่ใกล้หมอคลินิก"
-          className="absolute inset-0 max-w-none object-cover pointer-events-none size-full"
+          className="absolute h-[100.44%] left-[-0.21%] max-w-none top-[-0.44%] w-[100.24%] pointer-events-none"
           src={imgMap}
         />
       </div>
